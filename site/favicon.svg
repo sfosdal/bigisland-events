@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="6" fill="#2a3f5f"/>
+  <!-- Hawaiʻi Island from the sea: Mauna Kea's cinder-coned summit and Mauna Loa's long shield, lava slopes, the shore -->
+  <path d="M0 19 Q6 11 11 9 Q13 8 15 9.5 Q19 12.5 23 12 Q28 11.5 32 15 L32 23 L0 23 Z" fill="#6d5f58"/>
+  <path d="M8 11.2 Q11 8.2 14 10.2 Z" fill="#e8ecef"/>
+  <path d="M0 23 Q10 20.5 20 21.5 Q27 22 32 21 L32 25 L0 25 Z" fill="#4f8a4a"/>
+  <path d="M0 25 L32 25 L32 32 L0 32 Z" fill="#3a7fb5"/>
+  <path d="M3 28.4 Q6 27.3 9 28.4 M17 29.6 Q20 28.5 23 29.6" stroke="#8fcbe8" stroke-width="0.9" fill="none" stroke-linecap="round"/>
+</svg>
