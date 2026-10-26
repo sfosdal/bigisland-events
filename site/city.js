@@ -369,10 +369,10 @@
   // The words the page uses for the place
   var WORDS = {
     teamCity: 'Hawaii', // the board drops it from the clubs' names
-    presetDefault: 'Every room on the island — KBXtreme, the Aloha Theatre, the coffee festival and the Kona coast parks, the Waikoloa resorts and shops, the Kahilu in Waimea and Puʻukoholā; the Palace, the Performing Arts Center, the Civic, the Merrie Monarch Festival, the Crown Room, ʻImiloa and the Vulcans’ grounds in Hilo, the national park and the art center in Volcano, the People’s Theatre in Honokaʻa — every team and type',
+    presetDefault: 'Every venue on the island — KBXtreme, the Aloha Theatre, the coffee festival and the Kona coast parks, the Waikoloa resorts and shops, the Kahilu in Waimea and Puʻukoholā; the Palace, the Performing Arts Center, the Civic, the Merrie Monarch Festival, the Crown Room, ʻImiloa and the Vulcans’ grounds in Hilo, the national park and the art center in Volcano, the People’s Theatre in Honokaʻa — every team and type',
     presetNeighborhood: 'The Kona side only — KBXtreme, the Aloha Theatre, the Kona Coffee Cultural Festival, Puʻuhonua o Hōnaunau and Kaloko-Honokōhau, the Waikoloa resorts and shops, the Kahilu in Waimea and Puʻukoholā',
     presetBig: 'Only the places that hold 2,000 or more — KBXtreme, the Waikoloa Bowl, the Hilton Waikoloa Village and the coffee festival; the Civic, the Merrie Monarch Festival at the stadium and the Vulcans’ grounds',
-    phrases: { all: 'Showing everything.', none: 'Showing nothing yet — open Filter and pick some venues.', neighborhood: 'Showing the Kona side only.', big: 'Showing the big rooms only — KBXtreme, the Waikoloa Bowl, the Hilton lawn, the coffee festival, the Civic, the Merrie Monarch Festival and the Vulcans’ grounds.' },
+    phrases: { all: 'Showing everything.', none: 'Showing nothing yet — open Filter and pick some venues.', neighborhood: 'Showing the Kona side only.', big: 'Showing the big venues only — KBXtreme, the Waikoloa Bowl, the Hilton lawn, the coffee festival, the Civic, the Merrie Monarch Festival and the Vulcans’ grounds.' },
   };
 
   // Hawaiʻi's public holidays (app.js holidaysFor reads this instead of its
