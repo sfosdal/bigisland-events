@@ -183,6 +183,22 @@
    "time": "17:00",
    "url": "https://www.honokaapeople.com/event-details/street-fighter-2026-10-25-17-00",
    "type": "concert"
+  },
+  {
+   "venue": "Vulcan Gym & Fields",
+   "title": "Vulcans Women's Soccer vs Dominican Penguins - Senior Day",
+   "date": "2026-10-26",
+   "time": "12:30",
+   "url": "https://uhhilo.universitytickets.com/w/event.aspx?id=1709",
+   "type": "sports"
+  },
+  {
+   "venue": "Vulcan Gym & Fields",
+   "title": "Vulcans Men's Soccer vs Dominican Penguins - Senior Day",
+   "date": "2026-10-26",
+   "time": "15:00",
+   "url": "https://uhhilo.universitytickets.com/w/event.aspx?id=1709",
+   "type": "sports"
   }
  ]
 }
