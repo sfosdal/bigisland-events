@@ -22,7 +22,7 @@
 import { writeFileSync, readFileSync } from 'node:fs';
 import { buildIcs } from './ics.mjs';
 import { isChurch } from './sources.mjs';
-import { mergeWithArchive, unionArchives, eventKey } from './merge.mjs';
+import { mergeWithArchive, unionArchives, eventKey, dropClashes } from './merge.mjs';
 import { fixLinks } from './links.mjs';
 import { calmTitle, isNotice } from './titles.mjs';
 import { applySchedules } from './schedules.mjs';
@@ -398,13 +398,16 @@ async function concertSociety() {
   return out;
 }
 
-const sources = [...ticketmasterRooms, ...feedSources(CITY, BROWSER_UA), konaCoffeeFest, kingsShops, pacOutlook, merrieMonarch, volcanoArtCenter];
+const splitVenues = (keep) => Object.fromEntries(Object.entries(CITY.venues).filter(([, v]) => keep(v)));
+const feedsFirst = feedSources({ ...CITY, venues: splitVenues((v) => !v.feed?.secondary) }, BROWSER_UA); // venues whose own calendar leads (city.js `feed`) + the city-wide `feeds`
+const feedsSecond = feedSources({ ...CITY, venues: splitVenues((v) => v.feed?.secondary), feeds: [] }, BROWSER_UA); // venues whose own calendar fills in behind Ticketmaster
+const sources = [...ticketmasterRooms, ...feedsFirst, konaCoffeeFest, kingsShops, pacOutlook, merrieMonarch, volcanoArtCenter];
 // Secondary sources re-list shows the primaries carry under other titles — Ticketmaster's rows for
 // the Kahilu (whose own page prints no clocks), the Palace and the Performing Arts Center, and the
 // Concert Society's season, whose concerts the
 // Performing Arts Center's own outlook may already print. Clocks differ between listings, so the
 // secondary rows are dropped by venue and date rather than by the shared dropTimeClashes.
-const secondary = [...ticketmasterSecond, concertSociety];
+const secondary = [...ticketmasterSecond, ...feedsSecond, concertSociety];
 const dropDateClashes = (rows, all) => { const taken = new Set(all.map((e) => `${e.venue}|${e.date}`)); return rows.filter((e) => !taken.has(`${e.venue}|${e.date}`)); };
 
 // Venue names as city.js spells them: a venue listed under other spellings
@@ -465,7 +468,7 @@ const fresh = all
 
 // the empty-list gate (feeds.mjs): nothing upcoming in this build's own pull means a room was
 // missed in scouting or every source is down — not a fact about the town. ALLOW_EMPTY_LIST=1 overrides.
-if (!emptyListGate(fresh, today, sources.length)) process.exit(1);
+if (!emptyListGate(fresh, today, sources.length + secondary.length)) process.exit(1);
 
 // carry past events forward. Two copies of the archive: the live feed and
 // the `archive` branch's file (every past event ever published; the workflow
