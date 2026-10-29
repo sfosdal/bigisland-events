@@ -199,6 +199,30 @@
    "time": "15:00",
    "url": "https://uhhilo.universitytickets.com/w/event.aspx?id=1709",
    "type": "sports"
+  },
+  {
+   "venue": "Puʻukoholā Heiau National Historic Site",
+   "title": "Cultural Demonstration - Hulu Ali'i (Chiefly Featherwork)",
+   "date": "2026-10-28",
+   "time": "10:00",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=107430",
+   "type": "community"
+  },
+  {
+   "venue": "Honokaʻa People’s Theatre",
+   "title": "Street Fighter",
+   "date": "2026-10-28",
+   "time": "17:00",
+   "url": "https://www.honokaapeople.com/event-details/street-fighter-2026-10-28-17-00",
+   "type": "concert"
+  },
+  {
+   "venue": "Vulcan Gym & Fields",
+   "title": "Vulcans Women's Volleyball vs Concordia Golden Eagles",
+   "date": "2026-10-28",
+   "time": "18:00",
+   "url": "https://uhhilo.universitytickets.com/w/event.aspx?id=1687",
+   "type": "sports"
   }
  ]
 }
