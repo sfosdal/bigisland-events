@@ -28,7 +28,7 @@ import { fixLinks } from './links.mjs';
 import { calmTitle, isNotice } from './titles.mjs';
 import { applySchedules } from './schedules.mjs';
 import { slugify, BADGE_FEEDS, TEAMS, CITY } from './badges.mjs';
-import { feedSources, emptyListGate, cardDates, feedFailedVenues } from './feeds.mjs';
+import { feedSources, emptyListGate, cardDates, feedFailedVenues, chromeFetch } from './feeds.mjs';
 import { tmFetch, tmFailed, keepFailedVenues } from './tm-fetch.mjs';
 
 const JSON_OUT = new URL('../site/events.json', import.meta.url);
@@ -225,16 +225,19 @@ export function mapKingsItems(items, from, to) {
   }
   return out;
 }
+// Both calls go through the Chrome fingerprint (feeds.mjs chromeFetch): the page and the EyeOn call answer
+// GitHub's runners 403 (2026-10-26); the call needs only the page's nonce, no cookie (checked 2026-10-30).
+// A failed read keeps the venue's upcoming rows from the last feed.
 async function kingsShops() {
-  const page = await fetch(KINGS_URL, { headers: { 'User-Agent': BROWSER_UA } });
-  if (!page.ok) throw new Error(`Kings' Shops HTTP ${page.status}`);
-  const html = await page.text();
+  const failed = (why) => { feedFailedVenues.add('Kings’ Shops'); return new Error(`Kings' Shops: ${why}`); };
+  const html = (await chromeFetch([KINGS_URL], "Kings' Shops")).get(KINGS_URL);
+  if (html == null) throw failed(`page unreadable ${KINGS_URL}`);
   const nonce = /"nonce":"([^"]+)"/.exec(html)?.[1], ajax = /"ajaxurl":"([^"]+)"/.exec(html)?.[1]?.replace(/\\\//g, '/');
-  if (!nonce || !ajax) throw new Error("Kings' Shops: no EyeOn nonce in the page");
-  const body = new URLSearchParams({ action: 'eyeon_api_request', nonce, apiUrl: '/v1/events', paginated_data: 'true', force_refresh: 'false' });
-  const res = await fetch(`${ajax}?api=/v1/events`, { method: 'POST', body, headers: { 'User-Agent': BROWSER_UA, Cookie: page.headers.get('set-cookie')?.split(';')[0] || '' } });
-  if (!res.ok) throw new Error(`Kings' Shops events HTTP ${res.status}`);
-  const data = await res.json();
+  if (!nonce || !ajax) throw failed('no EyeOn nonce in the page');
+  const call = JSON.stringify({ url: `${ajax}?api=/v1/events`, data: { action: 'eyeon_api_request', nonce, apiUrl: '/v1/events', paginated_data: 'true', force_refresh: 'false' } });
+  const text = (await chromeFetch([call], "Kings' Shops events")).get(call);
+  if (text == null) throw failed('EyeOn events call unreadable');
+  const data = JSON.parse(text);
   const items = data.items || data.data?.items || [];
   const from = new Date().toISOString().slice(0, 10), to = new Date(Date.now() + 120 * 86400e3).toISOString().slice(0, 10);
   const evs = mapKingsItems(items, from, to);
