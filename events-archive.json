@@ -231,6 +231,46 @@
    "time": "19:00",
    "url": "https://hilo.hawaii.edu/news/view/17470",
    "type": "arts"
+  },
+  {
+   "venue": "Volcano Art Center",
+   "title": "Aloha Friday Cultural Activities — Gallery",
+   "date": "2026-10-30",
+   "time": "11:00",
+   "url": "https://volcanoartcenter.org/ep-events/aloha-friday-cultural-activities-13/",
+   "type": "arts"
+  },
+  {
+   "venue": "ʻImiloa Astronomy Center",
+   "title": "Halloween at ʻImiloa: Carnival of The Deep",
+   "date": "2026-10-30",
+   "time": "15:00",
+   "url": "https://imiloahawaii.org/event-calendar/2026/10/30/halloween-at-imiloa-carnival-of-the-deep",
+   "type": "community"
+  },
+  {
+   "venue": "Kahilu Theatre",
+   "title": "The Land Has Spoken: Tales of Indigenous Horrors",
+   "date": "2026-10-30",
+   "time": "19:00",
+   "url": "https://kahilu.org/events/the-land-has-spoken-tales-of-indigenous-horrors/",
+   "type": "arts"
+  },
+  {
+   "venue": "Palace Theater",
+   "title": "The Haunted Palace",
+   "date": "2026-10-30",
+   "time": "19:00",
+   "url": "https://hilopalace.com/palace-event/the-haunted-palace/",
+   "type": "concert"
+  },
+  {
+   "venue": "Honokaʻa People’s Theatre",
+   "title": "Wildwood",
+   "date": "2026-10-30",
+   "time": "19:00",
+   "url": "https://www.honokaapeople.com/event-details/wildwood-2026-10-30-19-00",
+   "type": "concert"
   }
  ]
 }
