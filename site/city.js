@@ -84,15 +84,19 @@
   var TM_EXCLUDE = /season tickets?|parking|suite|\btours?\b|ticket packages?|vip (upgrade|package|tailgate)|club (level|seating)|^half price:|\b\d+[- ]day pass|grounds pass|all[- ]session|mini[- ]plan|lawn chair|cabana/i;
   var VENUES = { // geo: [lat, lon] puts the room on the Map view (site/local-map.js); Nominatim once at build time (2026-10-24/25), eight placed by hand
     // --- Kona & Kohala: the Palani Road grounds, the Kainaliu playhouse, the parks, the festival, the Waikoloa resorts, Waimea ---
-    'KBXtreme': { // the bowling-and-arcade complex on Palani Road whose lot stages the touring reggae and island acts (See Tickets box office; Ticketmaster's two ids watched)
+    'KBXtreme': { // the bowling-and-arcade complex on Palani Road whose lot stages the touring reggae and island acts — its own Events page (`cards`) leads, Ticketmaster's two ids second
       geo: [19.644, -155.988], // Palani Road at Kona Commons (placed by hand — the street number does not geocode)
       capacity: 3300,
       type: 'concert',
       cssVar: '--v-kbx',
       color: '#86c8ea',
-      url: 'https://www.kbxtreme.com/',
+      url: 'https://www.kbxtreme.com/events',
       icon: 'https://www.google.com/s2/favicons?domain=www.kbxtreme.com&sz=128',
-      tm: { id: 'KovZpabZHe,Z7r9jZaAdi', match: '', fallbackUrl: 'https://www.kbxtreme.com/', exclude: TM_EXCLUDE },
+      tm: { id: 'KovZpabZHe,Z7r9jZaAdi', match: '', fallbackUrl: 'https://www.kbxtreme.com/events', exclude: TM_EXCLUDE, secondary: true },
+      // a Squarespace page of hand-set blocks, no events collection: per show an h3 name, a paragraph "Friday, November 6, 2026 at 6PM"
+      // (the clock is sometimes left off) and a Tickets button (eventim, the act's own site), so the page is cut at each h3; a card with
+      // no button keeps the events page as its link
+      feed: { kind: 'cards', url: 'https://www.kbxtreme.com/events', item: /<h3\b/, title: /(?=(?:[\s\S]*?<a\s[^>]*?href="([^"]+)")?)^[^>]*>([\s\S]*?)<\/h3>/, when: /<p[^>]*>(?:\s*<(?:span|strong|em)[^>]*>)*\s*((?:Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday),\s+(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+\d{4}[^<]*)</ },
       alias: /kbxtreme|kbx ?treme|kona bowl/i,
     },
     'Kona Coffee Cultural Festival': { // ten November days of farm tours, tastings, the parade and the Miss Kona Coffee pageant across the district — its calendar page (fetch-events.mjs parseKccf), each day a row
@@ -139,7 +143,7 @@
       feed: { kind: 'nps', url: 'https://developer.nps.gov/api/v1/events?parkCode=kaho' },
       alias: /kaloko|honok[oō]hau/i,
     },
-    'Waikoloa Bowl at Queens’ Gardens': { // the resort's outdoor amphitheatre, lawn seating for the touring concerts (Ticketmaster)
+    'Waikoloa Bowl at Queens’ Gardens': { // the resort's outdoor amphitheatre, lawn seating for the touring concerts (Ticketmaster; the resort's own calendar second)
       geo: [19.9135, -155.8812], // the lawn on the MarketPlace's mauka side (by hand)
       capacity: 3000,
       type: 'concert',
@@ -148,6 +152,9 @@
       url: 'https://www.waikoloabeachresort.com/events/',
       icon: 'https://www.google.com/s2/favicons?domain=www.waikoloabeachresort.com&sz=128',
       tm: { id: 'KovZpZA1AJeA', match: '', fallbackUrl: 'https://www.waikoloabeachresort.com/events/', exclude: TM_EXCLUDE },
+      // the Waikoloa Beach Resort's Events Calendar names the Bowl as a venue ("Waikoloa Bowl @ Queens’ Marketplace"); it fills in behind
+      // Ticketmaster, the Bowl's rows only (`venues`) — nothing upcoming there on 2026-10-30, the resort's last listing was May's Lei Day
+      feed: { kind: 'tribe', secondary: true, url: 'https://www.waikoloabeachresort.com/wp-json/tribe/events/v1/events', venues: /waikoloa bowl|queen.?s.? gardens/i },
       alias: /waikoloa bowl|queen.?s.? gardens/i,
     },
     'Hilton Waikoloa Village': { // the 62-acre resort — its Palace Lawn concerts and ballroom shows (Ticketmaster, both ids)
