@@ -271,6 +271,54 @@
    "time": "19:00",
    "url": "https://www.honokaapeople.com/event-details/wildwood-2026-10-30-19-00",
    "type": "concert"
+  },
+  {
+   "venue": "Hawaiʻi Volcanoes National Park",
+   "title": "Annual Halloween Bingo Scavenger Hunt at Kahuku.",
+   "date": "2026-10-31",
+   "time": "09:00",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=143277",
+   "type": "community"
+  },
+  {
+   "venue": "Hawaiʻi Volcanoes National Park",
+   "title": "Spooky Scavenger Hunt at Kīlauea Summit",
+   "date": "2026-10-31",
+   "time": "12:00",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=143276",
+   "type": "community"
+  },
+  {
+   "venue": "Queens’ MarketPlace",
+   "title": "2026 HalloQueen Trick or Treat Event",
+   "date": "2026-10-31",
+   "time": "16:00",
+   "url": "https://www.queensmarketplace.com/event/2026-halloqueen-trick-or-treat-event/",
+   "type": "community"
+  },
+  {
+   "venue": "Vulcan Gym & Fields",
+   "title": "Vulcans Women's Volleyball vs Point Loma Sea Lions - Senior Night + Bank of Hawaii",
+   "date": "2026-10-31",
+   "time": "18:00",
+   "url": "https://uhhilo.universitytickets.com/w/event.aspx?id=1688",
+   "type": "sports"
+  },
+  {
+   "venue": "Palace Theater",
+   "title": "The Haunted Palace",
+   "date": "2026-10-31",
+   "time": "19:00",
+   "url": "https://hilopalace.com/palace-event/the-haunted-palace/",
+   "type": "concert"
+  },
+  {
+   "venue": "Honokaʻa People’s Theatre",
+   "title": "Wildwood",
+   "date": "2026-10-31",
+   "time": "19:00",
+   "url": "https://www.honokaapeople.com/event-details/wildwood-2026-10-31-19-00",
+   "type": "concert"
   }
  ]
 }
