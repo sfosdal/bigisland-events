@@ -319,6 +319,22 @@
    "time": "19:00",
    "url": "https://www.honokaapeople.com/event-details/wildwood-2026-10-31-19-00",
    "type": "concert"
+  },
+  {
+   "venue": "Kahilu Theatre",
+   "title": "Kahilu – The Gift of Place (Film Screening)",
+   "date": "2026-11-01",
+   "time": "14:00",
+   "url": "https://kahilu.org/events/kahilu-the-gift-of-place/",
+   "type": "arts"
+  },
+  {
+   "venue": "Honokaʻa People’s Theatre",
+   "title": "Wildwood",
+   "date": "2026-11-01",
+   "time": "17:00",
+   "url": "https://www.honokaapeople.com/event-details/wildwood-2026-11-01-17-00",
+   "type": "concert"
   }
  ]
 }
