@@ -335,6 +335,29 @@
    "time": "17:00",
    "url": "https://www.honokaapeople.com/event-details/wildwood-2026-11-01-17-00",
    "type": "concert"
+  },
+  {
+   "venue": "Puʻukoholā Heiau National Historic Site",
+   "title": "Cultural Demonstration - Hulu Ali'i (Chiefly Featherwork)",
+   "date": "2026-11-04",
+   "time": "10:00",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=107430",
+   "type": "community"
+  },
+  {
+   "venue": "Honokaʻa People’s Theatre",
+   "title": "Wildwood",
+   "date": "2026-11-04",
+   "time": "17:00",
+   "url": "https://www.honokaapeople.com/event-details/wildwood-2026-11-04-17-00",
+   "type": "concert"
+  },
+  {
+   "venue": "Kings’ Shops",
+   "title": "Hula & Cultural Demonstrations 2026",
+   "date": "2026-11-04",
+   "time": "17:30",
+   "url": "https://kingsshops.com/event/hula-and-cultural-demonstrations-2026/"
   }
  ]
 }
