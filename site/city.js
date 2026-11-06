@@ -106,7 +106,7 @@
       type: 'community',
       cssVar: '--v-coffeefest',
       color: '#eac886',
-      url: 'https://konacoffeefest.com/calendar/',
+      url: 'https://konacoffeefest.com/events/',
       icon: 'https://www.google.com/s2/favicons?domain=konacoffeefest.com&sz=128',
       alias: /kona coffee (cultural )?fest/i,
     },
