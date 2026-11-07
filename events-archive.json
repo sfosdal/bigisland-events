@@ -390,6 +390,62 @@
    "time": "19:00",
    "url": "https://www.honokaapeople.com/event-details/wildwood-2026-11-05-19-00",
    "type": "concert"
+  },
+  {
+   "venue": "Kona Coffee Cultural Festival",
+   "title": "Island Sun Coffee: Farming Kona Coffee with Diversified Crops",
+   "date": "2026-11-06",
+   "time": "09:00",
+   "url": "https://konacoffeefest.com/event/island-sun-coffee-farming-kona-coffee-with-diversified-crops-2/",
+   "type": "community"
+  },
+  {
+   "venue": "Volcano Art Center",
+   "title": "Aloha Friday Cultural Activities — Gallery",
+   "date": "2026-11-06",
+   "time": "11:00",
+   "url": "https://volcanoartcenter.org/ep-events/aloha-friday-cultural-activities-14/",
+   "type": "arts"
+  },
+  {
+   "venue": "Kona Coffee Cultural Festival",
+   "title": "Made In Hawai’i Artisan Market — Hale Halawai County Pavilion",
+   "date": "2026-11-06",
+   "time": "14:00",
+   "url": "https://konacoffeefest.com/event/made-in-hawaii-artisan-market/",
+   "type": "community"
+  },
+  {
+   "venue": "KBXtreme",
+   "title": "The Green",
+   "date": "2026-11-06",
+   "time": "18:00",
+   "url": "https://www.thegreen808.com/",
+   "type": "concert"
+  },
+  {
+   "venue": "Kona Coffee Cultural Festival",
+   "title": "Kona Coffee Cultural Festival Lantern Parade — Kailua Pier to Hale Halawai County Pavilion",
+   "date": "2026-11-06",
+   "time": "18:00",
+   "url": "https://konacoffeefest.com/event/kona-coffee-cultural-festival-lantern-parade/",
+   "type": "community"
+  },
+  {
+   "venue": "Kona Coffee Cultural Festival",
+   "title": "Multicultural Showcase — Hale Halawai County Pavilion",
+   "date": "2026-11-06",
+   "time": "18:00",
+   "url": "https://konacoffeefest.com/event/multicultural-showcase/",
+   "type": "community"
+  },
+  {
+   "venue": "Honokaʻa People’s Theatre",
+   "title": "Dave Abearʻs A Very Jerry Band",
+   "date": "2026-11-06",
+   "time": "18:30",
+   "url": "https://www.honokaapeople.com/event-details/dave-abears-a-very-jerry-band",
+   "type": "concert"
   }
  ]
 }
