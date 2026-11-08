@@ -446,6 +446,126 @@
    "time": "18:30",
    "url": "https://www.honokaapeople.com/event-details/dave-abears-a-very-jerry-band",
    "type": "concert"
+  },
+  {
+   "venue": "Puʻukoholā Heiau National Historic Site",
+   "title": "Hawaiian Weapons and Warrior Arts",
+   "date": "2026-11-07",
+   "time": "09:00",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=145666",
+   "type": "community"
+  },
+  {
+   "venue": "Kona Coffee Cultural Festival",
+   "title": "Island Sun Coffee: Farming Kona Coffee with Diversified Crops",
+   "date": "2026-11-07",
+   "time": "09:00",
+   "url": "https://konacoffeefest.com/event/island-sun-coffee-farming-kona-coffee-with-diversified-crops-2/",
+   "type": "community"
+  },
+  {
+   "venue": "Kona Coffee Cultural Festival",
+   "title": "The Holualoa Coffee And Art Stroll — Historic Holualoa Village",
+   "date": "2026-11-07",
+   "time": "09:00",
+   "url": "https://konacoffeefest.com/event/holualoa-coffee-and-art-stroll/",
+   "type": "community"
+  },
+  {
+   "venue": "Volcano Art Center",
+   "title": "VAC Golf Tournament at Volcano Golf Course",
+   "date": "2026-11-07",
+   "time": "09:00",
+   "url": "https://volcanoartcenter.org/ep-events/vac-golf-tournament-at-volcano-golf-course-november-7th/",
+   "type": "arts"
+  },
+  {
+   "venue": "Kona Coffee Cultural Festival",
+   "title": "The Holualoa School Legacy Project: At the Holualoa Coffee & Art Stroll — Holualoa Elementary School Cafeteria",
+   "date": "2026-11-07",
+   "time": "09:30",
+   "url": "https://konacoffeefest.com/event/the-holualoa-school-legacy-project-at-the-holualoa-coffee-art-stroll/",
+   "type": "community"
+  },
+  {
+   "venue": "Queens’ MarketPlace",
+   "title": "2026 PKL ‘Ohana Festival",
+   "date": "2026-11-07",
+   "time": "10:00",
+   "url": "https://www.queensmarketplace.com/event/pkl-ohana-festival/",
+   "type": "community"
+  },
+  {
+   "venue": "Kona Coffee Cultural Festival",
+   "title": "KCCF Cultural Activities & Demos at the Donkey Mill Art Center",
+   "date": "2026-11-07",
+   "time": "10:00",
+   "url": "https://konacoffeefest.com/event/cultural-activities-at-the-donkey-mill-art-center/",
+   "type": "community"
+  },
+  {
+   "venue": "Vulcan Gym & Fields",
+   "title": "Vulcans Women's Soccer vs #2 Concordia vs #4 Biola - Championship Match",
+   "date": "2026-11-07",
+   "time": "12:00",
+   "url": "https://fan.hudl.com/tickets/VGlja2V0ZWRFdmVudDZhZGE4MjhjM2E0ZmRiNjE1MjBjODgzMA==",
+   "type": "sports"
+  },
+  {
+   "venue": "Volcano Art Center",
+   "title": "Artist Demonstration with Cindy Conklin at VAC Gallery in Hawai’i Volcanoes National Park — Gallery",
+   "date": "2026-11-07",
+   "time": "13:00",
+   "url": "https://volcanoartcenter.org/ep-events/artist-demonstration-with-cindy-conklin-at-vac-gallery-in-hawaii-volcanoes-national-park/",
+   "type": "arts"
+  },
+  {
+   "venue": "Kahilu Theatre",
+   "title": "Guided By Horses",
+   "date": "2026-11-07",
+   "time": "15:30",
+   "url": "https://kahilu.org/events/guided-by-horses/",
+   "type": "arts"
+  },
+  {
+   "venue": "Kahilu Theatre",
+   "title": "EA (Sovereign)",
+   "date": "2026-11-07",
+   "time": "17:30",
+   "url": "https://kahilu.org/events/ea-sovereign/",
+   "type": "arts"
+  },
+  {
+   "venue": "Kona Coffee Cultural Festival",
+   "title": "Ucc Miss Kona Coffee Scholarship Competition — Outrigger Kona Resort & Spa",
+   "date": "2026-11-07",
+   "time": "18:00",
+   "url": "https://konacoffeefest.com/event/miss-kona-coffee-scholarship-competition/",
+   "type": "community"
+  },
+  {
+   "venue": "Palace Theater",
+   "title": "Love, Devotion and Surrender",
+   "date": "2026-11-07",
+   "time": "19:00",
+   "url": "https://hilopalace.com/palace-event/love-devotion-and-surrender/",
+   "type": "concert"
+  },
+  {
+   "venue": "Honokaʻa People’s Theatre",
+   "title": "Forgotten Island",
+   "date": "2026-11-07",
+   "time": "19:00",
+   "url": "https://www.honokaapeople.com/event-details/forgotten-island-2026-11-07-19-00",
+   "type": "concert"
+  },
+  {
+   "venue": "Kahilu Theatre",
+   "title": "The Navigator",
+   "date": "2026-11-07",
+   "time": "19:30",
+   "url": "https://kahilu.org/events/the-navigator/",
+   "type": "arts"
   }
  ]
 }
