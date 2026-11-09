@@ -566,6 +566,70 @@
    "time": "19:30",
    "url": "https://kahilu.org/events/the-navigator/",
    "type": "arts"
+  },
+  {
+   "venue": "Kona Coffee Cultural Festival",
+   "title": "Island Sun Coffee: Farming Kona Coffee with Diversified Crops",
+   "date": "2026-11-08",
+   "time": "09:00",
+   "url": "https://konacoffeefest.com/event/island-sun-coffee-farming-kona-coffee-with-diversified-crops-2/",
+   "type": "community"
+  },
+  {
+   "venue": "Kona Coffee Cultural Festival",
+   "title": "Kona Coffee Cultural Festival 2nd Annual Pickle & Pour Pickleball Tournament — Holua Racquet & Paddle",
+   "date": "2026-11-08",
+   "time": "09:00",
+   "url": "https://konacoffeefest.com/event/1st-annual-pickle-pour-pickleball-tournament/",
+   "type": "community"
+  },
+  {
+   "venue": "Kona Coffee Cultural Festival",
+   "title": "KTA Super Stores Kona Coffee Recipe Contest & Big Island Showcase — Outrigger Kona Resort and Spa",
+   "date": "2026-11-08",
+   "time": "10:00",
+   "url": "https://konacoffeefest.com/event/kta-super-stores-kona-coffee-recipe-contest/",
+   "type": "community"
+  },
+  {
+   "venue": "Kahilu Theatre",
+   "title": "Protecting KAHOʻOLAWE: 50 Years Of Aloha ʻĀIna + Documentary Activism",
+   "date": "2026-11-08",
+   "time": "15:00",
+   "url": "https://kahilu.org/events/protecting-kaho%ca%bbolawe-50-years-of-aloha-%ca%bbaina-documentary-activism/",
+   "type": "arts"
+  },
+  {
+   "venue": "Kona Coffee Cultural Festival",
+   "title": "Little Miss Kona Coffee Scholarship Pageant — Outrigger Kona Resort & Spa",
+   "date": "2026-11-08",
+   "time": "16:30",
+   "url": "https://konacoffeefest.com/event/little-miss-kona-coffee-scholarship-competition/",
+   "type": "community"
+  },
+  {
+   "venue": "Honokaʻa People’s Theatre",
+   "title": "Forgotten Island",
+   "date": "2026-11-08",
+   "time": "17:00",
+   "url": "https://www.honokaapeople.com/event-details/forgotten-island-2026-11-08-17-00",
+   "type": "concert"
+  },
+  {
+   "venue": "Kahilu Theatre",
+   "title": "Pacific Showcase Shorts: Tracing Home",
+   "date": "2026-11-08",
+   "time": "17:30",
+   "url": "https://kahilu.org/events/pacific-showcase-shorts-tracing-home/",
+   "type": "arts"
+  },
+  {
+   "venue": "Kahilu Theatre",
+   "title": "Making The Line",
+   "date": "2026-11-08",
+   "time": "19:30",
+   "url": "https://kahilu.org/events/making-the-line/",
+   "type": "arts"
   }
  ]
 }
