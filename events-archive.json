@@ -1261,6 +1261,70 @@
    "time": "20:00",
    "url": "https://hilopalace.com/palace-event/making-the-line/",
    "type": "arts"
+  },
+  {
+   "venue": "Palace Theater",
+   "title": "Hawai’i International Film Festival – HIFF",
+   "date": "2026-11-15",
+   "time": "",
+   "url": "https://hilopalace.com/palace-event/hiff/",
+   "type": "arts"
+  },
+  {
+   "venue": "Palace Theater",
+   "title": "Protecting Kaho’olawe",
+   "date": "2026-11-15",
+   "time": "12:00",
+   "url": "https://hilopalace.com/palace-event/protecting-kahoolawe/",
+   "type": "arts"
+  },
+  {
+   "venue": "Kona Coffee Cultural Festival",
+   "title": "Kona Coffee Cultural Festival Cupping Competition Awards Ceremony — Buddhas Cup Sanctuary Event Space",
+   "date": "2026-11-15",
+   "time": "13:00",
+   "url": "https://konacoffeefest.com/event/kona-coffee-cultural-festival-cupping-competition-awards-ceremony/",
+   "type": "community"
+  },
+  {
+   "venue": "Palace Theater",
+   "title": "Chura Vita",
+   "date": "2026-11-15",
+   "time": "14:00",
+   "url": "https://hilopalace.com/palace-event/chura-vita/",
+   "type": "arts"
+  },
+  {
+   "venue": "Honokaʻa People’s Theatre",
+   "title": "Everest: The Other Side",
+   "date": "2026-11-15",
+   "time": "14:00",
+   "url": "https://www.honokaapeople.com/event-details/everest-the-other-side-2026-11-15-14-00",
+   "type": "concert"
+  },
+  {
+   "venue": "Kona Coffee Cultural Festival",
+   "title": "Dvorak & Tchaikovsky with the Chamber Orchestra of Kona — Kona Elks Lodge",
+   "date": "2026-11-15",
+   "time": "14:00",
+   "url": "https://konacoffeefest.com/event/cook-orchestra-concert/",
+   "type": "community"
+  },
+  {
+   "venue": "Palace Theater",
+   "title": "Dear You",
+   "date": "2026-11-15",
+   "time": "16:30",
+   "url": "https://hilopalace.com/palace-event/dear-you/",
+   "type": "arts"
+  },
+  {
+   "venue": "Palace Theater",
+   "title": "Drifter",
+   "date": "2026-11-15",
+   "time": "19:00",
+   "url": "https://hilopalace.com/palace-event/drifter/",
+   "type": "arts"
   }
  ]
 }
