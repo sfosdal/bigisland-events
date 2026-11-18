@@ -1325,6 +1325,22 @@
    "time": "19:00",
    "url": "https://hilopalace.com/palace-event/drifter/",
    "type": "arts"
+  },
+  {
+   "venue": "Afook-Chinen Civic Auditorium",
+   "title": "Vulcans Women's Basketball vs Alaska Anchorage Seawolves",
+   "date": "2026-11-17",
+   "time": "15:00",
+   "url": "https://uhhilo.universitytickets.com/w/event.aspx?id=1718",
+   "type": "sports"
+  },
+  {
+   "venue": "Afook-Chinen Civic Auditorium",
+   "title": "Vulcans Men's Basketball vs Grace U Talons",
+   "date": "2026-11-17",
+   "time": "18:00",
+   "url": "https://uhhilo.universitytickets.com/w/event.aspx?id=1719",
+   "type": "sports"
   }
  ]
 }
