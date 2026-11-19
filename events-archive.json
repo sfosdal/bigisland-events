@@ -1341,6 +1341,37 @@
    "time": "18:00",
    "url": "https://uhhilo.universitytickets.com/w/event.aspx?id=1719",
    "type": "sports"
+  },
+  {
+   "venue": "Kaloko-Honokōhau National Historical Park",
+   "title": "Noʻeau Hoʻoniho (Skillful Setting of Stones) with Benson Chong",
+   "date": "2026-11-18",
+   "time": "10:00",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=129838",
+   "type": "community"
+  },
+  {
+   "venue": "Puʻukoholā Heiau National Historic Site",
+   "title": "Cultural Demonstration - Hulu Ali'i (Chiefly Featherwork)",
+   "date": "2026-11-18",
+   "time": "10:00",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=107430",
+   "type": "community"
+  },
+  {
+   "venue": "Honokaʻa People’s Theatre",
+   "title": "Everest: The Other Side",
+   "date": "2026-11-18",
+   "time": "17:00",
+   "url": "https://www.honokaapeople.com/event-details/everest-the-other-side-2026-11-18-17-00",
+   "type": "concert"
+  },
+  {
+   "venue": "Kings’ Shops",
+   "title": "Hula & Cultural Demonstrations 2026",
+   "date": "2026-11-18",
+   "time": "17:30",
+   "url": "https://kingsshops.com/event/hula-and-cultural-demonstrations-2026/"
   }
  ]
 }
