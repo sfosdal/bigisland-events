@@ -1402,6 +1402,77 @@
    "time": "19:00",
    "url": "https://www.honokaapeople.com/event-details/everest-the-other-side-2026-11-19-19-00",
    "type": "concert"
+  },
+  {
+   "venue": "Volcano Art Center",
+   "title": "Aloha Friday Cultural Activities — Gallery",
+   "date": "2026-11-20",
+   "time": "11:00",
+   "url": "https://volcanoartcenter.org/ep-events/aloha-friday-cultural-activities-16/",
+   "type": "arts"
+  },
+  {
+   "venue": "Kings’ Shops",
+   "title": "Sip and Shop",
+   "date": "2026-11-20",
+   "time": "15:00",
+   "url": "https://kingsshops.com/event/sip-and-shop-e7b015424d8d-7513f6d7489d/"
+  },
+  {
+   "venue": "Afook-Chinen Civic Auditorium",
+   "title": "Vulcans Men's Basketball vs CSU Monterey Bay Otters - Faculty + Staff Appreciation (Pepsi Hawai‘i)",
+   "date": "2026-11-20",
+   "time": "17:00",
+   "url": "https://uhhilo.universitytickets.com/w/event.aspx?id=1720",
+   "type": "sports"
+  },
+  {
+   "venue": "Queens’ MarketPlace",
+   "title": "Light The World: Giving Machine – Launch Ceremony",
+   "date": "2026-11-20",
+   "time": "17:00",
+   "url": "https://www.queensmarketplace.com/event/light-the-world-giving-machines-launch-ceremony/",
+   "type": "community"
+  },
+  {
+   "venue": "Palace Theater",
+   "title": "Mariah and the Great Dragon",
+   "date": "2026-11-20",
+   "time": "18:30",
+   "url": "https://hilopalace.com/palace-event/mariah-and-the-great-dragon/",
+   "type": "arts"
+  },
+  {
+   "venue": "Kahilu Theatre",
+   "title": "Celebration of Laughs Tour",
+   "date": "2026-11-20",
+   "time": "19:00",
+   "url": "https://kahilu.org/events/celebration-of-laughs-tour/",
+   "type": "arts"
+  },
+  {
+   "venue": "Honokaʻa People’s Theatre",
+   "title": "You Can See Everything",
+   "date": "2026-11-20",
+   "time": "19:00",
+   "url": "https://www.honokaapeople.com/event-details/you-can-see-everything-2026-11-20-19-00",
+   "type": "concert"
+  },
+  {
+   "venue": "Afook-Chinen Civic Auditorium",
+   "title": "Vulcans Men's Basketball vs Fort Lewis vs San Francisco State",
+   "date": "2026-11-20",
+   "time": "19:00",
+   "url": "https://uhhilo.universitytickets.com/w/event.aspx?id=1720",
+   "type": "sports"
+  },
+  {
+   "venue": "UH Hilo Performing Arts Center",
+   "title": "Dr. Seuss' How the Grinch Stole Christmas! The Musical",
+   "date": "2026-11-20",
+   "time": "19:00",
+   "url": "https://hilo.hawaii.edu/news/view/17472",
+   "type": "arts"
   }
  ]
 }
