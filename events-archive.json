@@ -1529,6 +1529,38 @@
    "time": "19:00",
    "url": "https://hilo.hawaii.edu/news/view/17473",
    "type": "arts"
+  },
+  {
+   "venue": "UH Hilo Performing Arts Center",
+   "title": "Dr. Seuss' How the Grinch Stole Christmas! The Musical",
+   "date": "2026-11-22",
+   "time": "14:00",
+   "url": "https://hilo.hawaii.edu/news/view/17476",
+   "type": "arts"
+  },
+  {
+   "venue": "Palace Theater",
+   "title": "You Can See Everything",
+   "date": "2026-11-22",
+   "time": "15:00",
+   "url": "https://hilopalace.com/palace-event/you-can-see-everything/",
+   "type": "arts"
+  },
+  {
+   "venue": "Honokaʻa People’s Theatre",
+   "title": "You Can See Everything",
+   "date": "2026-11-22",
+   "time": "17:00",
+   "url": "https://www.honokaapeople.com/event-details/you-can-see-everything-2026-11-22-17-00",
+   "type": "concert"
+  },
+  {
+   "venue": "Palace Theater",
+   "title": "You Can See Everything",
+   "date": "2026-11-22",
+   "time": "19:00",
+   "url": "https://hilopalace.com/palace-event/you-can-see-everything/",
+   "type": "arts"
   }
  ]
 }
