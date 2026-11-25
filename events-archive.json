@@ -1569,6 +1569,22 @@
    "time": "11:00",
    "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=146466",
    "type": "community"
+  },
+  {
+   "venue": "Queens’ MarketPlace",
+   "title": "Don’t miss our Black Friday Event!",
+   "date": "2026-11-24",
+   "time": "10:00",
+   "url": "https://www.queensmarketplace.com/event/dont-miss-our-black-friday-event/",
+   "type": "community"
+  },
+  {
+   "venue": "Palace Theater",
+   "title": "You Can See Everything",
+   "date": "2026-11-24",
+   "time": "19:00",
+   "url": "https://hilopalace.com/palace-event/you-can-see-everything/",
+   "type": "arts"
   }
  ]
 }
